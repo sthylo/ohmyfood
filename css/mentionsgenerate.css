@@ -1,0 +1,123 @@
+body {
+  height: 100%;
+  margin: 0; }
+
+header, footer {
+  background-color: #579c87;
+  font-family: Montserrat;
+  color: #fdcb46; }
+
+header {
+  width: 100%;
+  height: 150px;
+  border-bottom: 0.5px solid #a1c181; }
+  header h1 {
+    font-family: Montserrat;
+    font-size: 4rem;
+    letter-spacing: -3.5px;
+    text-align: center;
+    padding: 2% 0 2% 0;
+    margin: 0; }
+    header h1 a {
+      text-decoration: none;
+      color: #fdcb46; }
+
+#mentions-legales {
+  width: 650px;
+  height: 100%;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 8%;
+  font-family: Montserrat;
+  padding: 2%;
+  box-shadow: 0px 0px 8px 6px #e8e8e8; }
+
+h2 {
+  font-family: Montserrat;
+  color: #579c87;
+  text-align: center;
+  padding: 5%; }
+
+h3 {
+  color: #579c87;
+  text-decoration: underline;
+  font-size: 1rem; }
+
+p {
+  text-align: justify; }
+  p span {
+    color: #fdcb46; }
+
+#adress {
+  text-align: center; }
+  #adress span {
+    font-weight: bold; }
+
+footer {
+  width: 100%;
+  height: 70px;
+  bottom: 0;
+  position: fixed;
+  border-top: 0.5px solid #a1c181;
+  display: flex;
+  justify-content: space-between; }
+  footer a {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 1.8%;
+    text-decoration: none;
+    color: #fdcb46;
+    font-size: 1.2rem;
+    animation: wiggle 1500ms ease-in-out infinite; }
+    footer a:hover {
+      animation: none; }
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(7deg); }
+  10% {
+    transform: rotate(-6deg); }
+  20% {
+    transform: rotate(5deg); }
+  30% {
+    transform: rotate(-4deg); }
+  40% {
+    transform: rotate(3deg); }
+  50% {
+    transform: rotate(-2deg); }
+  60% {
+    transform: rotate(1deg); }
+  70% {
+    transform: rotate(0deg); }
+  80% {
+    transform: rotate(0deg); }
+  90% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(0deg); } }
+@media (max-width: 950px) {
+  #mentions-legales {
+    margin-bottom: 8%; } }
+@media (max-width: 750px) {
+  #mentions-legales {
+    width: 550px;
+    margin-bottom: 14%; } }
+@media (max-width: 550px) {
+  #mentions-legales {
+    width: 350px;
+    margin-bottom: 14%; } }
+@media (max-width: 400px) {
+  #mentions-legales {
+    width: 200px;
+    margin-bottom: 26%; }
+
+  h2 {
+    font-size: 110%; }
+
+  h3 {
+    font-size: 85%; }
+
+  p {
+    font-size: 80%; } }
+
+/*# sourceMappingURL=mentionsgenerate.css.map */

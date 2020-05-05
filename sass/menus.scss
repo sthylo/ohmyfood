@@ -1,0 +1,494 @@
+@font-face {
+    font-family: 'devonshire';
+    src: url("../fonts/devonshire/Fonts/devonshire-regular-webfont.woff") format("woff");
+    src: url("../fonts/devonshire/Fonts/devonshire-regular-webfont.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'segoe';
+    src: url("../fonts/segoe/segoe.woff") format('woff');
+    src: url("../fonts/segoe/segoe.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: 'croissant';
+    src: url("../fonts/croissant/Fonts/croissantone-regular-webfont.woff") format("woff");
+    src: url("../fonts/croissant/Fonts/croissantone-regular-webfont.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'charissil';
+    src: url("../fonts/charissil/Fonts/charissil-b-webfont.woff") format("woff");
+    src: url("../fonts/charissil/Fonts/charissil-b-webfont.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'dancing script';
+    src: url("../fonts/dancing-script/dancing-script-v14-latin-regular.woff") format("woff");
+    src: url("../fonts/dancing-script/dancing-script-v14-latin-regular.woff2") format("woff2");
+}
+
+
+@font-face {
+    font-family: 'kaushan';
+    src: url("../fonts/kaushan/Fonts/kaushanscript-regular-webfont.woff") format("woff");
+    src: url("../fonts/kaushan/Fonts/kaushanscript-regular-webfont.woff2") format("woff2");
+}
+
+
+.img {
+    width: 50px;
+    height: 50px;
+}
+
+.imgsignature {
+    width: 35px;
+    height: 35px;
+}
+
+
+$color-primary: #579c87;
+$color-secondary: #fdcb46;
+$color-border: #a1c181;
+
+body {
+	height: 100%;
+	margin: 0;
+}
+
+header, footer{
+background-color: $color-primary;
+font-family: Montserrat;
+color: $color-secondary;
+}
+
+header {
+width: 100%;
+height: 150px;	
+border-bottom: .5px solid $color-border;
+	h1{
+		font-family: Montserrat;
+		font-size: 4rem;
+		letter-spacing: -3.5px;
+		text-align: center;
+		padding: 2% 0 2% 0;
+		margin: 0;
+		a{
+			text-decoration: none;
+			color: $color-secondary;
+		}
+	}
+}
+
+/* Tous les menus */
+
+.menu-titre {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.menus {
+    width: 650px;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 8%;
+    box-shadow: 0px 0px 8px 6px rgba(232,232,232,1);
+    .nom_restaurant-titre, .soustitre, .assiette {
+        display: flex;
+        align-items: center;
+    }
+        .nom_restaurant-titre {
+            flex-direction: column;
+            align-items: center;
+            h2 {
+                text-align: center;
+            }
+        }
+        .soustitre {
+            align-items: center;
+            margin: auto;
+            justify-content: space-between;
+            width: 80%;
+           h3 {
+            text-align: center;
+            }
+        }
+        .trait {
+        width: 160px;
+        }
+    }
+    .assiette {
+        font-size: 1rem;
+        flex-direction: row;
+        line-height: 1;
+        width: 78%;
+        margin: auto;
+        justify-content: space-between;
+        align-items: baseline;
+        .prix {
+        font-weight: bolder;
+    }
+}
+
+
+/* Menu "La note enchantée" */
+
+.menu-lanoteenchantee {
+    background-color: #fcdfdb;
+    color: #3c1218;
+}
+
+.nom_restaurant-lanoteenchantee {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.nom_restaurant-titre--lanoteenchantee {
+    font-family: devonshire;
+    font-size: 2.5rem;
+    margin-top: -1px;
+    font-weight: lighter;
+}
+
+.h3-lanoteenchantee {
+    font-family: segoe;
+    background: linear-gradient(to top, #3c1218 5%, transparent 2%) no-repeat left bottom/0 100%;
+    transition: background-size 700ms ease;
+            &:hover {
+                background-size: 100% 100%;
+            }
+}
+
+.assiette-lanoteenchantee {
+    font-family: segoe;
+    font-size: .7rem;
+    font-weight: lighter;
+}
+
+.prix {
+    font-size: .8rem;
+}
+
+#signature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6%;
+    p {
+        font-family: devonshire;
+        font-size: 1.7rem;
+        font-weight: lighter;
+        padding-left: 2%;
+    }
+}
+
+
+/* Menu "Le chic à la française" */
+
+.menu-lechicalafrancaise {
+    background-color: #fff5fe;
+    padding-bottom: 7%;
+}
+
+.nom_restaurant-lechicalafrancaise {
+    text-align: center;
+    padding: 10% 0 3% 0;
+}
+
+.nom_restaurant-titre--lechicalafrancaise {
+    font-family: croissant;
+    font-weight: lighter;
+    font-size: 1.7rem;
+    color: #d8852e;
+    background: linear-gradient(160deg, #d8852e 25%, #905bfd 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.h3-lechicalafrancaise1 {
+    font-family: cambria;
+    font-size: 1rem;
+    font-weight: 600;
+    background: linear-gradient(to top, #d8852e 5%, transparent 10%) no-repeat left bottom/0 100%;
+    transition: background-size 700ms ease;
+            &:hover {
+                background-size: 100% 100%;
+            }
+}
+.h3-lechicalafrancaise2 {
+    font-family: cambria;
+    font-size: 1rem;
+    font-weight: 600;
+    background: linear-gradient(to top, #a56799 5%, transparent 10%) no-repeat left bottom/0 100%;
+    transition: background-size 700ms ease;
+            &:hover {
+                background-size: 100% 100%;
+            }
+}
+.h3-lechicalafrancaise3 {
+    font-family: cambria;
+    font-size: 1rem;
+    font-weight: 600;
+    background: linear-gradient(to top, #6e4ccc 5%, transparent 10%) no-repeat left bottom/0 100%;
+    transition: background-size 700ms ease;
+            &:hover {
+                background-size: 100% 100%;
+            }
+}
+
+.assiette-lechicalafrancaise {
+    font-family: cambria;
+    font-size: .8rem;
+    width: 70%;
+}
+
+.entrees-lechicalafrancaise, .plats-lechicalafrancaise, .desserts-lechicalafrancaise {
+    padding-bottom: 3%;
+}
+
+.entrees-lechicalafrancaise {
+    color: #d8852e
+}
+
+.plats-lechicalafrancaise {
+    color: #a56799
+}
+
+.desserts-lechicalafrancaise {
+    color: #6e4ccc
+}
+
+.prix-lechicalafrancaise {
+    font-size: .9rem;
+}
+
+
+/* Menu "Le délice des papilles" */
+
+.menu-ledelicedespapilles {
+    background-color: #edefef;
+    color: #000000;
+    padding-bottom: 7%;
+}
+
+.nom_restaurant-ledelicedespapilles {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.nom_restaurant-titre--ledelicedespapilles {
+    font-family: 'dancing script';
+    font-size: 3rem;
+    font-weight: 100;
+    color: #0431df;
+    background: linear-gradient(160deg, #0431df 25%, #0887fb 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.h3-ledelicedespapilles {
+    font-family: segoe;
+    font-size: .9rem;
+    background: linear-gradient(to top, #000000 5%, transparent 7%) no-repeat left bottom/0 100%;
+    transition: background-size 700ms ease;
+            &:hover {
+                background-size: 100% 100%;
+            }
+}
+
+.assiette-ledelicedespapilles {
+    font-family: segoe;
+    font-size: .7rem;
+    width: 73%;
+}
+
+.prix-ledelicedespapilles {
+    font-size: 1rem;
+}
+
+.entrees-ledelicedespapilles, .plats-ledelicedespapilles, .desserts-ledelicedespapilles {
+    padding-bottom: 3%;
+}
+
+
+/* Menu "La palette du goût" */
+
+.menu-lapalettedugout {
+    background-color: #fdfffd;
+    color: #000000;
+    padding-bottom: 7%;
+}
+
+.nom_restaurant-lapalettedugout {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.nom_restaurant-titre--lapalettedugout {
+    font-family: kaushan;
+    font-size: 3rem;
+    color: #3d9339;
+    background: linear-gradient(160deg, #3d9339 25%, #acf075 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.h3-lapalettedugout {
+    font-family: segoe;
+    font-size: .9rem;
+    background: linear-gradient(to top, #000000 5%, transparent 7%) no-repeat left bottom/0 100%;
+    transition: background-size 700ms ease;
+            &:hover {
+                background-size: 100% 100%;
+            }
+}
+
+.assiette-lapalettedugout {
+    font-family: segoe;
+    font-size: .7rem;
+    width: 73%;
+}
+
+.prix-lapalettedugout {
+    font-size: 1rem;
+}
+
+.entrees-lapalettedugout, .plats-lapalettedugout, .desserts-lapalettedugout {
+    padding-bottom: 3%;
+}
+
+footer {
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    position: fixed;
+    border-top: .5px solid $color-border;
+    display: flex;
+    justify-content: space-between;
+    a{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin: 1.8%;
+        text-decoration: none;
+        color: $color-secondary;
+        font-size: 1.2rem;
+        animation: wiggle 1500ms ease-in-out infinite;
+        &:hover {
+            animation: none;
+        }
+    }
+}
+
+@keyframes wiggle {
+    0% { transform: rotate(7deg); } 
+   10% { transform: rotate(-6deg); } 
+   20% { transform: rotate(5deg); } 
+   30% { transform: rotate(-4deg); } 
+   40% { transform: rotate(3deg); } 
+   50% { transform: rotate(-2deg); } 
+   60% { transform: rotate(1deg); } 
+   70% { transform: rotate(0deg); } 
+   80% { transform: rotate(0deg); } 
+   90% { transform: rotate(0deg); } 
+   100% { transform: rotate(0deg); } 
+}
+
+
+
+@media (min-width: 651px) and (max-width: 750px){
+    .menus {
+        width: 550px;
+        margin-bottom: 12%;
+    }
+}
+
+@media (min-width: 551px) and (max-width: 650px){
+    .menus {
+        width: 500px;
+        margin-bottom: 13%;
+    }
+    .nom_restaurant-titre--lanoteenchantee, .nom_restaurant-titre--ledelicedespapilles, .nom_restaurant-titre--lapalettedugout {
+        font-size: 220%;
+    }
+    .nom_restaurant-titre--lechicalafrancaise {
+        font-style: 180%;
+    }
+}
+
+@media (min-width: 521px) and (max-width: 550px){
+    .menus {
+        width: 450px;
+        margin-bottom: 16%;
+    }
+    .nom_restaurant-titre--lanoteenchantee, .nom_restaurant-titre--ledelicedespapilles, .nom_restaurant-titre--lapalettedugout {
+        font-size: 200%;
+    }
+    .nom_restaurant-titre--lechicalafrancaise {
+        font-style: 160%;
+    }
+    .prix {
+        padding-left: 2%;
+    }
+    .menus .soustitre .trait {
+        width: 100px;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 520px){
+    .menus {
+        width: 400px;
+        margin-bottom: 18%;
+    }
+    .nom_restaurant-titre--lanoteenchantee, .nom_restaurant-titre--ledelicedespapilles, .nom_restaurant-titre--lapalettedugout {
+        font-size: 180%;
+    }
+    .nom_restaurant-titre--lechicalafrancaise {
+        font-style: 140%;
+    }
+    .prix {
+        padding-left: 2%;
+    }
+    .menus .soustitre .trait {
+        width: 100px;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 450px){
+    .menus {
+        width: 350px;
+        margin-bottom: 20%;
+    }
+    .nom_restaurant-titre--lanoteenchantee, .nom_restaurant-titre--ledelicedespapilles, .nom_restaurant-titre--lapalettedugout {
+        font-size: 160%;
+    }
+    .nom_restaurant-titre--lechicalafrancaise {
+        font-style: 120%;
+    }
+    .prix {
+        padding-left: 2%;
+    }
+    .menus .soustitre .trait {
+        width: 100px;
+    }
+}
+
+@media (max-width: 400px){
+    .menus {
+        width: 300px;
+        margin-bottom: 23%;
+    }
+    .nom_restaurant-titre--lanoteenchantee, .nom_restaurant-titre--ledelicedespapilles, .nom_restaurant-titre--lapalettedugout {
+        font-size: 140%;
+    }
+    .nom_restaurant-titre--lechicalafrancaise {
+        font-style: 100%;
+    }
+    .prix {
+        padding-left: 2%;
+    }
+    .menus .soustitre .trait {
+        width: 75px;
+    }
+}

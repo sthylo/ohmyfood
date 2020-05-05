@@ -1,0 +1,304 @@
+@font-face {
+    font-family: 'devonshire';
+    src: url("../fonts/devonshire/Fonts/devonshire-regular-webfont.woff") format("woff");
+    src: url("../fonts/devonshire/Fonts/devonshire-regular-webfont.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'segoe';
+    src: url("../fonts/segoe/segoe.woff") format('woff');
+    src: url("../fonts/segoe/segoe.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: 'croissant';
+    src: url("../fonts/croissant/Fonts/croissantone-regular-webfont.woff") format("woff");
+    src: url("../fonts/croissant/Fonts/croissantone-regular-webfont.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'charissil';
+    src: url("../fonts/charissil/Fonts/charissil-b-webfont.woff") format("woff");
+    src: url("../fonts/charissil/Fonts/charissil-b-webfont.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'dancing script';
+    src: url("../fonts/dancing-script/dancing-script-v14-latin-regular.woff") format("woff");
+    src: url("../fonts/dancing-script/dancing-script-v14-latin-regular.woff2") format("woff2");
+}
+
+
+@font-face {
+    font-family: 'kaushan';
+    src: url("../fonts/kaushan/Fonts/kaushanscript-regular-webfont.woff") format("woff");
+    src: url("../fonts/kaushan/Fonts/kaushanscript-regular-webfont.woff2") format("woff2");
+}
+
+
+
+
+
+$color-primary: #579c87;
+$color-secondary: #fdcb46;
+$color-border: #a1c181;
+
+body {
+	height: 100%;
+	margin: 0;
+}
+
+header, footer{
+background-color: $color-primary;
+font-family: Montserrat;
+color: $color-secondary;
+}
+
+header {
+width: 100%;
+height: 150px;	
+border-bottom: .5px solid $color-border;
+	h1{
+		font-family: Montserrat;
+		font-size: 4rem;
+		letter-spacing: -3.5px;
+		text-align: center;
+		padding: 2% 0 2% 0;
+		margin: 0;
+		a{
+			text-decoration: none;
+			color: $color-secondary;
+		}
+	}
+}
+
+.menus{
+	width: 60%;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    margin: auto;
+    .menu-prev {
+        width: 300px;
+        height: 420px;
+        position: relative;
+        text-align: center;
+        margin-bottom: 8%;
+        box-shadow: 0px 0px 8px 6px rgba(232,232,232,1);
+        a {
+            text-decoration: none;
+            .menu-content {
+            	width: 300px;
+                height: 420px;
+                transition-property: transform, opacity;
+                transition-duration: 300ms;
+                transition-timing-function: linear;
+                &:hover {
+                    transform: scale(1.1);
+                    opacity: 0.5;
+                }
+            }
+        }
+	}
+}
+
+.menu-prev--lanoteenchantee{
+	background-color: #fcdfdb;
+	img {
+		width: 45px;
+		height: 45px;
+		position: absolute;
+		margin-top: -50px;
+		margin-left: -20px;
+	}
+		h2 {
+			font-family: devonshire;
+			font-weight: 100;
+			font-size: 2rem;
+			color: #3c1218;
+			margin-top: 57%;
+        }
+            h3 {
+            	font-family: segoe;
+            	font-weight: lighter;
+            	font-size: 2rem;
+            	color: #3c1218;
+            	margin-top: -2%;
+            }
+}
+
+.menu-prev--lechicalafrancaise{
+	background-color: #fff5fe;
+	h2 {
+		font-family: croissant;
+		font-weight: lighter;
+		font-size: 1.2rem;
+		color: #d8852e;
+		background: linear-gradient(160deg, #d8852e 25%, #905bfd 70%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		margin-top: 57%;
+	}
+	    h3 {
+	    	font-family: charissil;
+		    font-size: 2rem;
+		    color: #d8852e;
+		    margin-top: 25px;
+	    }
+}
+
+.menu-prev--ledelicedespapilles {
+	background-color: #f9f9f9;
+	h2 {
+		font-family: 'dancing script';
+		font-size: 1.7rem;
+		color: #0431df;
+		background: linear-gradient(160deg, #0431df 25%, #0887fb 70%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		margin-top: 57%;
+	}
+	    h3 {
+	    	font-family: segoe;
+	    	font-size: 2rem;
+	    	color: #0887fb;
+	    	
+	    }
+}
+
+.menu-prev--lapalettedugout {
+	background-color: #fdfffd;
+	h2 {
+		font-family: kaushan;
+		font-size: 1.7rem;
+		color: #3d9339;
+		background: linear-gradient(160deg, #3d9339 25%, #acf075 70%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		margin-top: 57%;
+	}
+	    h3 {
+	    	font-family: segoe;
+	    	font-size: 2rem;
+	    	color: #72bf56;
+	    }
+}
+
+
+.prochainement{
+	text-align: center;
+	margin-bottom: 8%;
+	margin-top: -1%;
+	button{
+		background-color: $color-primary;
+		border-radius: 10px;
+		font-size: 1.5rem;
+		font-family: montserrat;
+		color: $color-secondary;
+		padding: 0.7% 3% 0.7% 3%;
+		.point1 {
+			animation: opacitypoint 1300ms ease infinite;
+			animation-delay: 300ms;
+		}
+		.point2 {
+			animation: opacitypoint 1300ms ease infinite;
+			animation-delay: 400ms;
+		}
+		.point3 {
+			animation: opacitypoint 1300ms ease infinite;
+			animation-delay: 500ms;
+		}
+	}
+}
+
+@keyframes opacitypoint {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+  }
+
+
+footer {
+	width: 100%;
+	height: 70px;
+	bottom: 0;
+	position: fixed;
+	border-top: .5px solid $color-border;
+	display: flex;
+	justify-content: space-between;
+	a{
+		margin-left: 20px;
+		margin-right: 20px;
+		margin: 1.8%;
+		text-decoration: none;
+		color: $color-secondary;
+		font-size: 1.2rem;
+		animation: wiggle 1500ms ease-in-out infinite;
+		&:hover {
+			animation: none;
+		}
+	}
+}
+
+@keyframes wiggle {
+	0% { transform: rotate(7deg); } 
+   10% { transform: rotate(-6deg); } 
+   20% { transform: rotate(5deg); } 
+   30% { transform: rotate(-4deg); } 
+   40% { transform: rotate(3deg); } 
+   50% { transform: rotate(-2deg); } 
+   60% { transform: rotate(1deg); } 
+   70% { transform: rotate(0deg); } 
+   80% { transform: rotate(0deg); } 
+   90% { transform: rotate(0deg); } 
+   100% { transform: rotate(0deg); } 
+}
+
+@media (min-width: 1100px) and (max-width: 1250px) {
+    .menus {
+        width: 60%;
+    }
+    .prochainement {
+        margin-bottom: 10%;          
+    }
+}
+
+@media (max-width: 1109px) {
+    .menus {
+        width: 80%;
+    }
+    .prochainement {
+        margin-bottom: 8%;
+	    margin-top: -2%;   
+    }
+}
+
+@media (max-width: 750px) {
+    .menus {
+        width: 50%;
+    }
+    .prochainement {
+        margin-bottom: 10%;
+        margin-top: 2%;  
+    }
+    .menu-prev--lanoteenchantee, .menu-prev--lechicalafrancaise, .menu-prev--ledelicedespapilles, .menu-prev--lapalettedugout {
+        margin: 7% 0 7% 0;
+    }
+}
+
+@media (max-width: 350px) {
+    .menus {
+        width: 50%;
+    }
+    .prochainement {
+        margin-bottom: 10%;
+        margin-top: 4%;   
+    }
+    .menu-prev--lanoteenchantee, .menu-prev--lechicalafrancaise, .menu-prev--ledelicedespapilles, .menu-prev--lapalettedugout {
+        margin: 7% 0 7% 0;
+    }
+}
