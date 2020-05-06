@@ -224,14 +224,17 @@ footer {
     width: 80%; }
 
   .prochainement {
-    margin-bottom: 8%;
-    margin-top: -2%; } }
+    margin-bottom: 12%;
+    margin-top: -2%; }
+
+  .menu-prev--lanoteenchantee, .menu-prev--lechicalafrancaise, .menu-prev--ledelicedespapilles, .menu-prev--lapalettedugout {
+    padding: 5%; } }
 @media (max-width: 750px) {
   .menus {
     width: 90%; }
 
   .prochainement {
-    margin-bottom: 10%;
+    margin-bottom: 20%;
     margin-top: 2%; }
 
   .menu-prev--lanoteenchantee, .menu-prev--lechicalafrancaise, .menu-prev--ledelicedespapilles, .menu-prev--lapalettedugout {
@@ -241,7 +244,7 @@ footer {
     width: 90%; }
 
   .prochainement {
-    margin-bottom: 10%;
+    margin-bottom: 30%;
     margin-top: 4%; }
 
   .menu-prev--lanoteenchantee, .menu-prev--lechicalafrancaise, .menu-prev--ledelicedespapilles, .menu-prev--lapalettedugout {
