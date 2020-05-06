@@ -56,7 +56,7 @@ body {
 
 header, footer{
 background-color: $color-primary;
-font-family: Montserrat;
+font-family: Montserrat, 'montserrat-medium';
 color: $color-secondary;
 }
 
@@ -65,7 +65,7 @@ width: 100%;
 height: 150px;	
 border-bottom: .5px solid $color-border;
 	h1{
-		font-family: Montserrat;
+		font-family: Montserrat, 'montserrat-medium';
 		font-size: 4rem;
 		letter-spacing: -3.5px;
 		text-align: center;
