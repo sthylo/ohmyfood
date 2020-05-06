@@ -13,7 +13,8 @@
 @font-face {
   font-family: 'croissant';
   src: url("../fonts/croissant/Fonts/croissantone-regular-webfont.woff") format("woff");
-  src: url("../fonts/croissant/Fonts/croissantone-regular-webfont.woff2") format("woff2"); }
+  src: url("../fonts/croissant/Fonts/croissantone-regular-webfont.woff2") format("woff2");
+  src: url("../fonts/croissant/Fonts/croissantone-regular.ttf") format("ttf"); }
 @font-face {
   font-family: 'charissil';
   src: url("../fonts/charissil/Fonts/charissil-b-webfont.woff") format("woff");
