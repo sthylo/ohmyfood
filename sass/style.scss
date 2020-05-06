@@ -95,6 +95,7 @@ border-bottom: .5px solid $color-border;
         a {
             text-decoration: none;
             .menu-content {
+		position: absolute;
             	width: 300px;
                 height: 420px;
                 transition-property: transform, opacity;
@@ -115,7 +116,7 @@ border-bottom: .5px solid $color-border;
 		width: 45px;
 		height: 45px;
 		position: absolute;
-		margin-top: -50px;
+		margin-top: 100px;
 		margin-left: -20px;
 	}
 		h2 {
