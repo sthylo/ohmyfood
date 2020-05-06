@@ -1,4 +1,10 @@
 @font-face {
+    font-family: 'montserrat-medium';
+    src: url("../fonts/montserrat-medium/montserrat-medium.woff") format("woff");
+    src: url("../fonts/montserrat-medium/montserrat-medium.ttf") format("ttf");
+}
+
+@font-face {
     font-family: 'devonshire';
     src: url("../fonts/devonshire/Fonts/devonshire-regular-webfont.woff") format("woff");
     src: url("../fonts/devonshire/Fonts/devonshire-regular-webfont.woff2") format("woff2");
@@ -58,7 +64,7 @@ body {
 
 header, footer{
 background-color: $color-primary;
-font-family: Montserrat;
+font-family: Montserrat, montserrat-medium, sans-serif;
 color: $color-secondary;
 }
 
@@ -67,7 +73,7 @@ width: 100%;
 height: 150px;	
 border-bottom: .5px solid $color-border;
 	h1{
-		font-family: Montserrat;
+		font-family: Montserrat, montserrat-medium, sans-serif;
 		font-size: 4rem;
 		letter-spacing: -3.5px;
 		text-align: center;
