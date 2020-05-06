@@ -32,7 +32,7 @@ body {
 
 header, footer {
   background-color: #579c87;
-  font-family: Montserrat, 'montserrat-medium';
+  font-family: Montserrat, 'montserrat-medium', 'sans-serif';
   color: #fdcb46; }
 
 header {
@@ -40,7 +40,7 @@ header {
   height: 150px;
   border-bottom: 0.5px solid #a1c181; }
   header h1 {
-    font-family: Montserrat, 'montserrat-medium';
+    font-family: Montserrat, 'montserrat-medium', 'sans-serif';
     font-size: 4rem;
     letter-spacing: -3.5px;
     text-align: center;
