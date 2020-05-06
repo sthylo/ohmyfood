@@ -67,6 +67,7 @@ header {
     .menus .menu-prev a {
       text-decoration: none; }
       .menus .menu-prev a .menu-content {
+        position: absolute;
         width: 300px;
         height: 420px;
         transition-property: transform, opacity;
@@ -82,7 +83,7 @@ header {
     width: 45px;
     height: 45px;
     position: absolute;
-    margin-top: -50px;
+    margin-top: 100px;
     margin-left: -20px; }
   .menu-prev--lanoteenchantee h2 {
     font-family: devonshire;
