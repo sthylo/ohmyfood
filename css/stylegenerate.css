@@ -1,4 +1,8 @@
 @font-face {
+  font-family: 'montserrat-medium';
+  src: url("../fonts/montserrat-medium/Fonts/montserrat-medium.woff") format("woff");
+  src: url("../fonts/montserrat-medium/Fonts/montserrat-medium.ttf") format("ttf"); }
+@font-face {
   font-family: 'devonshire';
   src: url("../fonts/devonshire/Fonts/devonshire-regular-webfont.woff") format("woff");
   src: url("../fonts/devonshire/Fonts/devonshire-regular-webfont.woff2") format("woff2"); }
