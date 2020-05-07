@@ -102,18 +102,18 @@ footer {
     transform: rotate(0deg); } }
 @media (max-width: 950px) {
   #mentions-legales {
-    margin-bottom: 8%; } }
+    margin-bottom: 12%; } }
 @media (max-width: 750px) {
   #mentions-legales {
-    width: 550px;
+    width: 80%;
     margin-bottom: 14%; } }
 @media (max-width: 550px) {
   #mentions-legales {
-    width: 350px;
-    margin-bottom: 14%; } }
+    width: 80%;
+    margin-bottom: 20%; } }
 @media (max-width: 400px) {
   #mentions-legales {
-    width: 200px;
+    width: 80%;
     margin-bottom: 26%; }
 
   h2 {
