@@ -51,7 +51,7 @@ header {
       color: #fdcb46; }
 
 .menus {
-  width: 60%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -148,7 +148,7 @@ header {
 .prochainement {
   text-align: center;
   margin-bottom: 8%;
-  margin-top: -1%; }
+  margin-top: -4%; }
   .prochainement button {
     background-color: #579c87;
     border-radius: 10px;
@@ -218,7 +218,8 @@ footer {
     width: 60%; }
 
   .prochainement {
-    margin-bottom: 10%; } }
+    margin-bottom: 10%;
+    margin-top: 1%; } }
 @media (max-width: 1109px) {
   header {
     height: 120px; }
