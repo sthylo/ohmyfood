@@ -222,7 +222,7 @@ footer {
     margin-bottom: 10%; } }
 @media (max-width: 1109px) {
   header {
-    height: 120px;}
+    height: 120px; }
   .menus {
     width: 90%; }
 
@@ -234,7 +234,7 @@ footer {
     padding: 5%; } }
 @media (max-width: 750px) {
   header {
-    	height: 100px;}
+    	height: 100px; }
   .menus {
     width: 90%; }
 
