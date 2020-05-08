@@ -276,6 +276,9 @@ footer {
 }
 
 @media (max-width: 1109px) {
+     header {
+     height: 120px;
+    }
     .menus {
         width: 90%;
     }
@@ -289,6 +292,8 @@ footer {
 }
 
 @media (max-width: 750px) {
+     header {
+    	height: 100px;	
     .menus {
         width: 90%;
     }
