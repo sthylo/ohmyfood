@@ -405,6 +405,9 @@ footer {
 
 
 @media (min-width: 651px) and (max-width: 750px){
+    header {
+        height: 120px;
+    }
     .menus {
         width: 550px;
         margin-bottom: 12%;
@@ -412,6 +415,9 @@ footer {
 }
 
 @media (min-width: 551px) and (max-width: 650px){
+    header {
+        height: 100px;
+    }
     .menus {
         width: 500px;
         margin-bottom: 13%;
@@ -425,6 +431,9 @@ footer {
 }
 
 @media (min-width: 521px) and (max-width: 550px){
+    header {
+        height: 100px;
+    }
     .menus {
         width: 450px;
         margin-bottom: 16%;
@@ -444,6 +453,9 @@ footer {
 }
 
 @media (min-width: 451px) and (max-width: 520px){
+    header {
+        height: 100px;
+    }
     .menus {
         width: 400px;
         margin-bottom: 18%;
@@ -463,6 +475,9 @@ footer {
 }
 
 @media (min-width: 401px) and (max-width: 450px){
+    header {
+        height: 100px;
+    }
     .menus {
         width: 350px;
         margin-bottom: 20%;
@@ -482,6 +497,9 @@ footer {
 }
 
 @media (max-width: 400px){
+    header {
+        height: 100px;
+    }
     .menus {
         width: 300px;
         margin-bottom: 23%;
