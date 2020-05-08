@@ -101,9 +101,15 @@ footer {
   100% {
     transform: rotate(0deg); } }
 @media (max-width: 950px) {
+  header {
+    height: 120px; }
+
   #mentions-legales {
     margin-bottom: 12%; } }
 @media (max-width: 750px) {
+  header {
+    height: 100px; }
+
   #mentions-legales {
     width: 80%;
     margin-bottom: 14%; } }
