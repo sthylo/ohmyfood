@@ -221,6 +221,8 @@ footer {
   .prochainement {
     margin-bottom: 10%; } }
 @media (max-width: 1109px) {
+  header {
+    	height: 120px;
   .menus {
     width: 90%; }
 
@@ -231,6 +233,8 @@ footer {
   .menu-prev--lanoteenchantee, .menu-prev--lechicalafrancaise, .menu-prev--ledelicedespapilles, .menu-prev--lapalettedugout {
     padding: 5%; } }
 @media (max-width: 750px) {
+  header {
+    	height: 100px;
   .menus {
     width: 90%; }
 
