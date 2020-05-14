@@ -78,8 +78,10 @@ border-bottom: .5px solid $color-border;
 	}
 }
 
+
+
 .menus{
-	width: 100%;
+	width: 70%;
 	display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -90,12 +92,14 @@ border-bottom: .5px solid $color-border;
         height: 420px;
         position: relative;
         text-align: center;
-        margin-bottom: 8%;
+        margin-bottom: 10%;
+        margin-right: 8%;
+        margin-left: 8%;
         box-shadow: 0px 0px 8px 6px rgba(232,232,232,1);
         a {
             text-decoration: none;
             .menu-content {
-		position: absolute;
+            	position: absolute;
             	width: 300px;
                 height: 420px;
                 transition-property: transform, opacity;
@@ -265,38 +269,38 @@ footer {
    100% { transform: rotate(0deg); } 
 }
 
-@media (min-width: 1100px) and (max-width: 1250px) {
+@media (min-width: 1110px) and (max-width: 1250px) {
     .menus {
-        width: 60%;
+        width: 100%;
     }
     .prochainement {
-        margin-bottom: 10%; 
-	margin-top: 1%; 
+        margin-bottom: 10%;  
+        margin-top: -5%;        
     }
 }
 
 @media (max-width: 1109px) {
-     header {
-     height: 120px;
+	header {
+    	height: 120px;
     }
     .menus {
-        width: 90%;
+        width: 100%;
     }
     .prochainement {
         margin-bottom: 12%;
 	    margin-top: -2%;   
     }
     .menu-prev--lanoteenchantee, .menu-prev--lechicalafrancaise, .menu-prev--ledelicedespapilles, .menu-prev--lapalettedugout {
-        padding: 5%;
+        padding: 1%;
     }
 }
 
 @media (max-width: 750px) {
-     header {
+    header {
     	height: 100px;
     }
     .menus {
-        width: 90%;
+        width: 100%;
     }
     .prochainement {
         margin-bottom: 25%;
@@ -306,6 +310,7 @@ footer {
         margin: 7% 0 7% 0;
     }
 }
+
 
 @media (max-width: 350px) {
     .menus {
